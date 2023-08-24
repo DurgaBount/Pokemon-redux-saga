@@ -1,0 +1,14 @@
+.container {
+  background: linear-gradient(to bottom, #1e5799, #2989d8);
+  /* Replace the colors with your desired gradient colors */
+  min-height: 100vh; /* Make sure the container takes up the full viewport height */
+  padding: 20px; /* Add padding to space out content from the edges */
+}
+.pokemon-cards-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  text-align: center;
+  justify-content: center;
+
+}
